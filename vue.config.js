@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: process.env.NODE_ENV === "production" ? "/GitDataV/" : "/",
+  publicPath: "/",
   devServer: {
     port: 8080,
     proxy: {
